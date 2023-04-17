@@ -1,0 +1,86 @@
+/*
+	Document Info:
+
+
+*/
+
+main {
+	
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.background-img {
+	background-image: linear-gradient(orange, black);
+}
+/*
+.nav-item:hover {
+	background-color: aliceblue;
+}
+
+.extra:hover:hover {
+	color: black;
+}*/
+
+
+
+
+
+
+
+
+
+/* Calculator Styling */
+#calculator {
+	background-color: lightgrey;
+	border-radius: 5px;
+	margin: 30px auto;
+	width: 20%;
+	padding: 10px;
+	border: 2px solid darkgrey;
+}
+
+#grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	background-color: lightgrey;
+	margin:0px auto;
+	width: 90%;
+	height: 400px;
+	
+}
+.btn-grid {
+	text-align: center;
+	align-content: center;
+	font-size: 1.2em;
+	max-width: 50px;
+	height:2.2em;
+	margin:auto;
+	width: 6em;
+}
+
+#screen {
+	background-color: #f2f2f2;
+	width: 90%;
+	margin: auto;
+	height: 3em;
+	text-align: right;
+	border-radius: 3px;
+	padding: 5px 5px;
+
+
+}
+
+#enter {
+	padding: 0px;
+	background-color: blue;
+	border: 2px solid lightgrey;
+	border-bottom: 2px solid grey;
+	color: white;
+	border-radius: 5px;
+	max-width: 150px;
+	width: 5em;
+	grid-column: 3 / 5;
+}
