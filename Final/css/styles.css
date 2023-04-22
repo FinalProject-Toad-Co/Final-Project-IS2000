@@ -92,6 +92,15 @@ main {
 
 
 /* Adam's Page */
+	/* image styling */
+	.adam-image-big {
+		width: 100%;
+	}
+	.adam-image {
+		width: 10%;
+	}
+
+
 	/* Calculator Styling */
 	#calculator {
 		background-color: lightgrey;

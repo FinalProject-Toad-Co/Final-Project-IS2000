@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+	Document Info:
+
+
+-->
+
+<html lang="en">
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8">
+	<!-- Stylesheet -->	
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<!-- Media Query -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicons -->
+		<link rel="stylesheet" type="text/css" href="">
+
+	</head>
+	<body>
+	<!-- Mobile Nav -->
+		<nav class="mobile-nav"></nav>
+		<header></header>
+	
+	<!-- Desktop Nav -->
+		<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black">
+			<a class="navbar-brand" href="index.html">Toad & co.</a>
+			
+		<!-- Hamburger Menu Icon -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			 	<span class="navbar-toggler-icon"></span>
+			</button>
+		
+		<!-- Navbar Links -->
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item extra"><a class="nav-link" href="#">Home</a></li>
+				<li class="nav-item extra"><a class="nav-link" href="#">Speeding Ticket</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">DUI</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Other</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+			  </ul>
+			</div>
+		 </nav>
+	<!-- End of Nav --> 
+
+
+		<main>
+		<!-- Images section -->
+		<img src="images/snow2.0.jpg" class="adam-image-big">
+
+		<div class="grid-container-adam">
+			<div class="image-item"><img src="images/the_bois.jpg" class="adam-image"></div>
+			<div class="image-item"><img src="images/sign.jpg" class="adam-image" ></div>
+			<div class="image-item"><img src="images/scarf.jpg" class="adam-image" ></div>
+			<div class="image-item"><img src="images/meme.jpeg" class="adam-image" ></div>
+			<div class="image-item"><img src="images/"></div>
+			<div class="image-item"><img src="images/"></div>
+			<div class="image-item"><img src="images/"></div>
+
+		</div>
+
+		<!-- Text Portion --> 
+			<h2>About Me</h2>
+			<p>Adam is a Student at SUU who completed his IS2000 class with an A *hint hint* and is going on to do great things. So far, Adam has helped to create this website, half a video game and can cook better than your mom. </p>
+
+			<p>Below is a broken Calculator. Maybe you can fix it.</p>
+
+
+
+		<!-- Calculator --> 	
+			<div id="calculator">
+				<p id="screen">Hey</p>
+				<div id="grid-container">
+					
+
+					<button class="btn-grid" value="..." onClick="press()">...</button>
+					<button class="btn-grid" value="..." onClick="press()">...</button>
+					<button class="btn-grid" value="..." onClick="myFunction()">CE</button>
+					<button class="btn-grid" onClick="press()">C</button>
+					
+					<button class="btn-grid" value="1" onClick="press()">1</button>
+					<button class="btn-grid" onClick="press()">2</button>
+					<button class="btn-grid" onClick="press()">3</button>
+					<button class="btn-grid" onClick="press()">&#247;</button>
+
+					<button class="btn-grid" onClick="press()">4</button>
+					<button class="btn-grid" onClick="press()">5</button>
+					<button class="btn-grid" onClick="press()">6</button>
+					<button class="btn-grid" onClick="press()">&#215;</button>
+					
+					<button class="btn-grid" onClick="press()">7</button>
+					<button class="btn-grid" onClick="press()">8</button>
+					<button class="btn-grid" onClick="press()">9</button>
+					<button class="btn-grid" onClick="press()">-</button>
+					
+					<button class="btn-grid" onClick="press()">...</button>
+					<button class="btn-grid" onClick="press()">0</button>
+					<button class="btn-grid" onClick="press()">.</button>
+					<button class="btn-grid" onClick="press()">+</button>
+					
+					
+					<button class="btn-grid" onClick="press()">0</button>
+					<button class="btn-grid" onClick="press()">0</button>
+					<button class="btn-grid" id="enter" onClick="press()">=</button>
+
+					
+				</div>
+			</div>
+
+
+			<p id="display">Display!</p>
+
+
+		</main>
+		<footer></footer>
+
+		<script type="text/javascript" src="jquery-3.6.3.min.js"></script>
+		<script type="text/javascript" src="scripts/script.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
