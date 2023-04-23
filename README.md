@@ -8,13 +8,13 @@
 6. Each page should include proper text headings and typographical hierarchy (i.e. font family and the words should look good)
    Pull in one font family and use it on your page
 7. Include at least 1 unique image on each of the pages with appropriate wrapping
-8. A standard navigation bar on one line AND include a hamburger option for small devices
+8. ~~A standard navigation bar on one line AND include a hamburger option for small devices~~
 9. At the bottom of each page, name of team member that worked on that page, and a link to their portfolio page
 10. Include a social Media Icon for Facebook and Twitter on ALL pages (Not Portfolio pages)
-11. Use Bootstrap for 2 different options (ie. Navbar, Images).
-12. Use of <id>
-13. Use of <class>
-14. Embed a map on one of the pages.
+11. ~~Use Bootstrap for 2 different options (ie. Navbar, Images).~~ (Done on Footer and Navbar)
+12. ~~Use of <id>~~
+13. ~~Use of <class>~~
+14. ~~Embed a map on one of the pages.~~
 15. Use of 2 different pseudo-classes somewhere on your pages 
 16. One page that includes a table, such as numbers from a spreadsheet, price sheet, or a comparison chart. (use pseudo element on the table)
 17. Include a form with different inputs (ie. checkbox, radio, textarea, password, etc.) but it MUST have at least 4 different inputs as well as a SUBMIT button
@@ -24,8 +24,8 @@
 21. Include an animation on 2 different images (2 different pages)
 22. Media Query for Tablet with 2 different styles applied of your choice
 23. Media Query for Desktop with 2 different styles applied of your choice and not used above
-24. Style your <div>
-25. Style your class
-26. Add a border somewhere on your pages (box border, table, etc.)
+24. ~~Style your <div>~~
+25. ~~Style your class~~
+26. ~~Add a border somewhere on your pages (box border, table, etc.)~~ (There is a border around the map. we could add another one just in case.)
 27. Other styles as appropriate to make pages feel complete
 28. EXTRA CREDIT: Add audio or video to your site and make it applicable to your pages, (it should enhance your pages). (10 points)
