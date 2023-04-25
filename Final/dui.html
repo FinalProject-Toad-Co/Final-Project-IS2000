@@ -10,8 +10,9 @@
 		<title>Final Project</title>
 		<meta charset="utf-8">
 	<!-- Stylesheet -->	
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Media Query -->
 		<meta name="" content="">
@@ -22,49 +23,117 @@
 	</head>
 	<body>
 	<!-- Mobile Nav -->
-		<nav class="mobile-nav"></nav>
-		<header></header>
-	<!-- Desktop Nav -->
-	<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black">
+	<nav class="mobile-nav margin-bottom"></nav>
 
+
+<!-- Desktop Nav -->
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black margin-bottom">
 		<a class="navbar-brand" href="index.html">Toad & co.</a>
 		
-		<<!-- Hamburger menu -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
- 
-<!-- Nav links -->
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+	<!-- Hamburger Menu Icon -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>
+		</button>
+	
+	<!-- Navbar Links -->
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+		  <ul class="navbar-nav ml-auto">
+			<li class="nav-item extra"><a class="nav-link" href="#">Home</a></li>
+			<li class="nav-item extra"><a class="nav-link" href="#">Speeding Ticket</a></li>
+			<li class="nav-item"><a class="nav-link" href="dui.html">DUI</a></li>
+			<li class="nav-item"><a class="nav-link" href="#">Other</a></li>
+			<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+		  </ul>
+		</div>
+	 </nav>
 
-	  <header>
-		<div class="container-fluid bg-light p-5 background-img">
-			<h1 class="display-4">Jumbotron</h1>
-			<p class="lead">This is  a jumbotron created using the bootstrap 5</p>
-			<hr class="my-4">
-			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-		  </div>
-	  </header>
+	 
+	 <!--Beginning of Content -->
 		<main>
 			
+			<div class="impmessage">
 
+				<h2>Got a DUI?</h2>
+				<h1>Fight it with Towed & Co!</h1>
+				<button>Click Here!</button>
+
+			</div>
+
+			<div class="benefits">
+				<h2><u>Benefits of Toad & Co.</u></h2>
+
+				<ul>
+					<li>Avoid or minimize the consequences. Everything Fast Pace</li>
+					<li>Free consultation to analyze the case</li>
+					<li>Specialized Attorney in each scenario. Full Refunds</li>
+				</ul>
+			</div>
+
+			<div class="phrase">
+				<h3><i>"Toad & Co. Has been my life saver in all of my incidents regardless of how repetitive they are" ~ Adrian Ninanya</i></h3>
+			</div>
+
+			<div class="steps">
+
+				<h2><u>What to Do?</u></h2>
+				<p>Start the process in three simple steps and finish in the fastest way possible. No more troubles like other companies</p>
+
+				<div class="grid">
+					<div class="step">
+						<img src="/Final/images/step1.jpeg" alt="a paper plane with a message" class="img-fluid">
+						<h3>Send us a Photo</h3>
+						<p>Send a photo of your ticket. So we get essential information about your ticket</p>
+					</div>
+
+					<div class="step odd">
+						<img src="/Final/images/step2.jpeg" alt="girl talking to someone about a driving ticket" class="img-fluid">
+						<h3>Tell us about your case</h3>
+						<p>We will discuss about specific details that can help us get the adequate lawyer for your case.</p>
+					</div>
+
+					<div class="step">
+						<img src="/Final/images/step3.webp" alt="attorney" class="img-fluid">
+						<h3>Get the Attorney</h3>
+						<p>And specialized attorney will start dealing with your case. If you don't wish to continue after the first meeting, you can cancel and get a full refund.</p>
+					</div>
+				</div>
+
+			</div>
+
+			
 
 		</main>
-		<footer></footer>
+		<!-- Footer -->
+		<footer class="bg-dark text-center p-3 text-muted">
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="index.html" class="link-primary text-muted">Home</a>
+						</div>
+
+						<div class="col-sm-4">
+							<p><a href="#" class="link-secondary text-muted">Speeding Ticket</a></p>
+						</div>
+
+						<div class="col-sm-4">
+							<p><a href="#" class="link-seccuss text-muted">DUI</a></p>
+						</div>
+						
+					</div>  
+				</div>
+				
+			<!-- Add your name and link here -->
+				<p>Page Created By: <a href=".html">  </a></p>
+				<p>Copyright 2023. All Rights Reserved</p>
+				<div class="">
+			<!-- Social media icons -->	
+					<a href="https://twitter.com/elonmusk" class="fa fa-twitter h3" style="font-size: 30px;"></a>
+					<a href="https://youtu.be/dQw4w9WgXcQ?t=43" class="fa fa-youtube h3 " style="font-size: 30px;"></a>
+					<a href="https://www.facebook.com/suunews" class="fa fa-facebook he " style="font-size: 30px;"></a>
+				</div>
+			</section>
+		</footer>
 
 
 		<script type="scripts/   "></script>
