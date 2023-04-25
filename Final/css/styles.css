@@ -15,6 +15,13 @@ main {
 .background-img {
 	background-image: linear-gradient(orange, black);
 }
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
 /*
 .nav-item:hover {
 	background-color: aliceblue;
@@ -23,6 +30,11 @@ main {
 .extra:hover:hover {
 	color: black;
 }*/
+
+footer {
+	background-color: #EBECF0;
+	margin-top: auto;
+}
 
 
 
