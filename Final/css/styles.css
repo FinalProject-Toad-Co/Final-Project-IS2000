@@ -6,8 +6,12 @@
 
 
 body {
-	background-color: black;
 	margin: 0;
+}
+main {
+	background-color: rgb(255, 255, 255);
+	padding-left: 55px;
+	padding-right: 55px;
 }
 
 .bg-black {
@@ -15,16 +19,29 @@ body {
 }
 
 .background-img {
-	background-image: linear-gradient(orange, black);
+	background-image: linear-gradient(rgb(255, 255, 255), black);
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 65px;
+}
+
+/*
+.nav-item:hover {
+	background-color: aliceblue;
 }
 
 /* DUI Styling */
+
 
 /*Call to Action Styling*/
 .impmessage {
 	color: white;
 	padding: 10%;
-	margin: 5% 0;
+	margin: 0 0 5%;
 	background-image: url('/Final/images/dui1.jpeg');
 	text-align: center;
 	background-size: cover;
@@ -44,7 +61,7 @@ body {
 
 .benefits{
 	text-align: center;
-	color: white;
+	color: black;
 }
 
 .benefits h2 {
@@ -61,13 +78,12 @@ body {
 
 .steps {
 	text-align: center;
-	color: white;
+	color: black;
 	margin: 5% 0 0;
 }
 
 .steps .odd {
-	background-color: grey;
-	color: black;
+	color: white;
 }
 
 .step{
@@ -92,17 +108,20 @@ body {
 /* Phrase Styling*/
 
 .phrase {
-	color: black;
+	color: white;
 	text-align: center;
 	padding: 2%;
 	margin: 5% 0 0;
-	background-color: grey;
 }
 
 .phrase h3 {
 	font-size: 1.5em;
 }
 
+footer {
+	background-color: #EBECF0;
+	margin-top: auto;
+}
 /* Contact Page Styling */
 	.contact-page {
 		background-color: #f5f2e9;
@@ -162,17 +181,16 @@ body {
 
 /* Media Query styling */
 	/* Tablet View port */
-	@media screen and (min-width: 480) {
+	@media screen and (min-width: 480px) {
 
 	}
 
 	/* Desktop View Port */
-	@media screen and (min-width: 901) {
-		.map {
+	@media screen and (min-width: 901px) {
+		/*.map {
 			width: 50%;
 			height: 100%;
-		}	
-
+		}*/	
 		/*Media Queries for DUI*/
 		.impmessage button {
 			font-size: 1.5em;
@@ -208,7 +226,11 @@ body {
 			grid-template-columns: auto auto auto;
 			padding: 2%;
 		}
+
+		
 	}
+
+	
 
 /* End Media Query Styling */
 
