@@ -76,6 +76,9 @@ main {
 
 /* Media Query styling */
 	/* Tablet View port */
+
+
+	
 	@media screen and (min-width: 480) {
 
 	}
@@ -86,22 +89,42 @@ main {
 			width: 50%;
 			height: 100%;
 		}	
+
+		/* Desktop index Form */
+		#form-be-grey {
+			background-color: lightgrey;
+			border: 2px solid black;
+			border-radius: 5px;
+			width: 80%;
+			margin: 10px auto;
+		}
+		.fieldsets {
+			border: 1px solid black;
+			padding-left: 10px;
+		}
+		#input-section {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			padding: 15px;
+			margin: 10px auto;
+		}
+		.fieldsets2 label {
+			padding-top: 5px;
+			margin-top: 5px;
+		}
+		#make-the-box-center {
+			text-align: center;	
+		}
+		#text-area {
+			background-color: #ededed;
+		}
+		#submit-button {
+			margin: 10px;
+		}
+		/*End Desktop index Form */
 	}
 
-	/* Desktop index Form */
-	.fieldsets {
-		border: 1px solid black;
-	}
-
-	.input-section {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		padding: 15px;
-		margin: 10px auto;
-		width: 80%;
-	}
-
-	/*End Desktop index Form */
+	
 
 
 
