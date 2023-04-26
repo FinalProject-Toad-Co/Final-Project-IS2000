@@ -1,29 +1,41 @@
+/* 
 
+    Document Info: 
 
+*/
 
+   
+/*help with the Nav */
+    .bg-black {
+        background-color: black;
+    }
 
-.bg-black {
-	background-color: black;
-}
-
-.background-img {
-	background-image: linear-gradient(orange, black);
-}
+    .background-img {
+        background-image: linear-gradient(orange, black);
+    }
 
 /* Main Top Image */
-.adam-image-big {
-    width: 100%;
-}
-#big-image-div {
-    margin-top: 40px;
-}
-.adam-image {
-    width: 100%;
-    border: 3px solid grey;
-    border-radius: 5px;
-}
+    .adam-image-big {
+        width: 100%;
+    }
+    #big-image-div {
+        margin-top: 40px;
+    }
+    .adam-image {
+        width: 100%;
+        border: 3px solid grey;
+        border-radius: 5px;
+        margin: 5px auto;
+    }/* End big picture */
+
 
 /* Portfolio Section */
+    .grid-container-adam {
+        background-color: lightgrey;
+        margin: 5px auto;
+        border-radius: 5px;
+        padding: 5px;
+    }
     .adam-text {
         border-radius: 50%;
         padding: 30px;
@@ -54,21 +66,7 @@
         grid-area: a3;
         background-color: lightcyan;
     }
-    .grid-container-adam {
-        display: grid;
-        grid-template-areas: 
-        'header header header'
-        'a1 b2 a3'
-        'b1 b2 b3'
-        'c1 c1 b3';
-
-        gap: 15px;
-        background-color: lightgrey;
-        margin: 20px 20px;
-        border-radius: 5px;
-        border: 2px solid darkgrey;
-        padding: 20px;
-    }
+    
     .adam-item1 {
         grid-area: header;
         background-color: darkslategrey;
@@ -79,7 +77,6 @@
         color: whitesmoke;
         border: 2px solid black;
     }
-
     .circle-text {
         text-align: center;
         margin: auto;
@@ -87,9 +84,55 @@
     }
 /* End of Portfolio image section */
 
+.slideshow-container {
+    display: none;
+}
+
+.only-for-desk {
+    display: none;
+}
+
+.statement {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
 
 
-/* Begin Styling for the Slideshow! */
+
+
+
+@media  screen and (min-width: 901px) {
+    .only-for-desk {
+        display: block;
+    }
+
+    .statement {
+        display: none;
+    }
+/* Desktop Styling for the images */
+.grid-container-adam {
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'a1 b2 a3'
+    'b1 b2 b3'
+    'c1 c1 b3';
+
+    gap: 15px;
+    background-color: lightgrey;
+    margin: 20px 20px;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    padding: 20px;
+}
+
+
+
+
+
+
+    /* Begin Styling for the Slideshow! */
 * {box-sizing:border-box}
 /* This is a risky command because it was added in after the rest of the site 
              was completed. It is a useful tool but might mess up things since it was 
@@ -97,6 +140,7 @@
 
 /* Slideshow container */
 .slideshow-container {
+display: block;
 max-width: 1000px;
 position: relative;
 margin: auto;
@@ -190,7 +234,7 @@ position: absolute;
 top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* The dots */
 .dot {
 cursor: pointer;
 height: 15px;
@@ -217,53 +261,59 @@ from {opacity: .4}
 to {opacity: 1}
 }
 
-
 /* Calculator Styling */
-#calculator {
-    background-color: lightgrey;
-    border-radius: 5px;
-    margin: 30px auto;
-    width: 20%;
-    padding: 10px;
-    border: 2px solid darkgrey;
-}
-#grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: lightgrey;
-    margin:0px auto;
-    width: 90%;
-    height: 400px;
+    #calculator {
+        background-color: lightgrey;
+        border-radius: 5px;
+        margin: 30px auto;
+        width: 20%;
+        padding: 10px;
+        border: 2px solid darkgrey;
+    }
+    #grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        background-color: lightgrey;
+        margin:0px auto;
+        width: 90%;
+        height: 400px;
+        
+    }
+    .btn-grid {
+        border: none;
+        text-align: center;
+        align-content: center;
+        font-size: 1.2em;
+        max-width: 50px;
+        height:2.2em;
+        margin:auto;
+        width: 6em;
+        border-radius: 5px;
+        box-shadow: 2px 2px 0px grey;
+    }
+    #screen {
+        background-color: #f2f2f2;
+        width: 90%;
+        margin: auto;
+        height: 3em;
+        text-align: right;
+        border-radius: 3px;
+        padding: 5px 5px;
+    }
+    #enter {
+        padding: 0px;
+        background-color: blue;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        max-width: 150px;
+        width: 5em;
+        grid-column: 3 / 5;
+    }
     
+    
+    
+   
 }
-.btn-grid {
-    border: none;
-    text-align: center;
-    align-content: center;
-    font-size: 1.2em;
-    max-width: 50px;
-    height:2.2em;
-    margin:auto;
-    width: 6em;
-    border-radius: 5px;
-    box-shadow: 2px 2px 0px grey;
-}
-#screen {
-    background-color: #f2f2f2;
-    width: 90%;
-    margin: auto;
-    height: 3em;
-    text-align: right;
-    border-radius: 3px;
-    padding: 5px 5px;
-}
-#enter {
-    padding: 0px;
-    background-color: blue;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    max-width: 150px;
-    width: 5em;
-    grid-column: 3 / 5;
-}
+
+
