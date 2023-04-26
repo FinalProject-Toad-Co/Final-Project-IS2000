@@ -172,43 +172,44 @@ body {
 			width: 50%;
 			height: 100%;
 		}	
+
+		/*Media Queries for DUI*/
+		.impmessage button {
+			font-size: 1.5em;
+		}
+
+		.impmessage button:hover{
+			background-color: olive;
+		}
+
+		.impmessage h1,h2 {
+			font-size: 3em;
+		}
+
+		.benefits h2 {
+			font-size: 2.5em;
+			margin: 2%;
+		}
+
+		.benefits ul li {
+			font-size: 1.5em;
+		}
+
+		.phrase h3 {
+			font-size: 2.5em;
+		}
+
+		.steps {
+			margin: 2%;
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: auto auto auto;
+			padding: 2%;
+		}
 	}
 
-	/*Media Queries for DUI*/
-	.impmessage button {
-		font-size: 1.5em;
-	}
-
-	.impmessage button:hover{
-		background-color: olive;
-	}
-
-	.impmessage h1,h2 {
-		font-size: 3em;
-	}
-
-	.benefits h2 {
-		font-size: 2.5em;
-		margin: 2%;
-	}
-
-	.benefits ul li {
-		font-size: 1.5em;
-	}
-
-	.phrase h3 {
-		font-size: 2.5em;
-	}
-
-	.steps {
-		margin: 2%;
-	}
-
-	.grid {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		padding: 2%;
-	}
 /* End Media Query Styling */
 
 
