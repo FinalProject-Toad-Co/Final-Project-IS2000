@@ -60,8 +60,75 @@
 		  </div>
 	  </header>
 		<main>
-			
+		
+		<!-- Section For Grid layout -->
 
+ 
+
+		<!-- End Grid Layout Section-->
+
+
+		<!-- Forms Section -->
+			<form> 
+				<fieldset>
+					<legend>Personal Information</legend>
+					<label for="fname">Fule Name:</label><br>
+					<input type="text" id="fname" name="fname" value="First, Last">
+					<label for="lnum">Drivers' License Number:</label><br>
+					<input type="text" id="lnum" name="lnum" value="#0000000000">
+
+					<label for="ticket_type"> Ticket Type: </label><br>
+					<select id="ticket_type" name="ticket_type">
+						<option>Speeding Ticket</option>
+						<option>DUI</option>
+						<option>Parking Ticket</option>
+						<option>Other</option>
+					</select>
+				</fieldset>
+				<fieldset>
+					<legend>Officer Information</legend>
+
+					<label for="oname">Officer name: </label><br>
+					<input type="text" id="oname" name="oname" value="John Doe">
+					<label for="bnum">Officer Badge Number: </label><br>
+					<input type="text" id="bnum" name="bnum" value="#0000000000">
+				</fieldset>
+				<fieldset>
+					<legend>Reason for Ticket</legend>
+					
+					<label>Cited Violations: </label><br>
+
+					<input type="checkbox" id="speed1" name="speed1" value="">
+					<label for="">1-15 over</label><br>
+					
+					<input type="checkbox" id="speed2" name="speed2" value="">
+					<label for="">16-30 over</label><br>
+					
+					<input type="checkbox" id="speed3" name="speed3" value="">
+					<label for="">31+ over</label><br>
+					
+					<input type="checkbox" id="DUI" name="DUI" value="">
+					<label for="">Impaired driving</label><br>
+					
+					<input type="checkbox" id="mod" name="mod" value="">
+					<label for="">Illegal car modification</label><br>
+					
+					<input type="checkbox" id="IRS" name="IRS" value="">
+					<label for="">Insurance/Registration complication</label><br>
+					
+					<input type="checkbox" id="ddr" name="ddr" value="">
+					<label for="">Distracted Driving</label><br>
+					
+					<input type="checkbox" id="fix" name="fix" value="">
+					<label for="">Broken item on car</label><br>
+				</fieldset>
+
+				<textarea name="other" rows="6" cols="60">
+					Provide any additional information you think we should know.
+				</textarea>
+			</form>
+
+		<!-- End Forms Section -->
 
 		</main>
 
