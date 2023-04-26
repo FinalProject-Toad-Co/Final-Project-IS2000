@@ -39,6 +39,11 @@ footer {
 	margin-top: auto;
 }
 
+/* Speeding Tickets Styling */
+	.speeding {
+		background-color: #f5f2e9;
+	}
+
 /* Contact Page Styling */
 	.contact-page {
 		background-color: #f5f2e9;
