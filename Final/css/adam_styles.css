@@ -2,10 +2,20 @@
 
 
 
+.bg-black {
+	background-color: black;
+}
+
+.background-img {
+	background-image: linear-gradient(orange, black);
+}
 
 /* Main Top Image */
 .adam-image-big {
     width: 100%;
+}
+#big-image-div {
+    margin-top: 40px;
 }
 .adam-image {
     width: 100%;
@@ -205,4 +215,55 @@ animation-duration: 1.5s;
 @keyframes fade {
 from {opacity: .4}
 to {opacity: 1}
+}
+
+
+/* Calculator Styling */
+#calculator {
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 30px auto;
+    width: 20%;
+    padding: 10px;
+    border: 2px solid darkgrey;
+}
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: lightgrey;
+    margin:0px auto;
+    width: 90%;
+    height: 400px;
+    
+}
+.btn-grid {
+    border: none;
+    text-align: center;
+    align-content: center;
+    font-size: 1.2em;
+    max-width: 50px;
+    height:2.2em;
+    margin:auto;
+    width: 6em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px grey;
+}
+#screen {
+    background-color: #f2f2f2;
+    width: 90%;
+    margin: auto;
+    height: 3em;
+    text-align: right;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+#enter {
+    padding: 0px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    max-width: 150px;
+    width: 5em;
+    grid-column: 3 / 5;
 }
