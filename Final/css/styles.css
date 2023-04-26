@@ -39,55 +39,130 @@ footer {
 	margin-top: auto;
 }
 
-/* Calculator Styling */
-#calculator {
-	background-color: lightgrey;
-	border-radius: 5px;
-	margin: 30px auto;
-	width: 20%;
-	padding: 10px;
-	border: 2px solid darkgrey;
-}
+/* Contact Page Styling */
+	.contact-page {
+		background-color: #f5f2e9;
+	}
 
-#grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	background-color: lightgrey;
-	margin:0px auto;
-	width: 90%;
-	height: 400px;
-	
-}
-.btn-grid {
-	text-align: center;
-	align-content: center;
-	font-size: 1.2em;
-	max-width: 50px;
-	height:2.2em;
-	margin:auto;
-	width: 6em;
-}
+	.map {
+		border: 2px solid grey;
+		border-radius: 5px;
+		margin: 10px auto;
+		width: 80%;
+		max-width: 600px;
+	}
+	.contact-page-text {
+		max-width: 600px;
+		margin: auto;
+	}
+	#contact {
+		display: block;
+		text-align: center;
+		margin: 100px auto;		
+	}
+	.contact-highlight {
+		width: 50%;
+		border-radius: 4px;
+		border: 1px solid #e3e5e8;
+		box-shadow: 2px 2px 4px brown;
+	}
+	.contact-highlight:hover {
+		transform: translateY(-10px);
+		box-shadow: 20px 20px 10px brown;
+	}
 
-#screen {
-	background-color: #f2f2f2;
-	width: 90%;
-	margin: auto;
-	height: 3em;
-	text-align: right;
-	border-radius: 3px;
-	padding: 5px 5px;
+/* End Contact Page styling */
 
+/* Footer Styling */
+	.fa {
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		padding: 6px 0;
+		border-radius: 50%;
+	}
 
-}
-
-#enter {
-	padding: 0px;
-	background-color: blue;
-	border: 2px solid lightgrey;
-	border-bottom: 2px solid grey;
+	.fa-twitter {
+		background-color: #55ACEE;
+		color: white;
+	}
+	.fa-facebook {
+		background: #3B5998;
+		color: white;
+	}
+	.fa-youtube {
+	background: #bb0000;
 	color: white;
-	border-radius: 5px;
-	max-width: 150px;
-	width: 5em;
-	grid-column: 3 / 5;
-}
+	}
+/* End Footer Styling */
+
+/* Media Query styling */
+	/* Tablet View port */
+	@media screen and (min-width: 480) {
+
+	}
+
+	/* Desktop View Port */
+	@media screen and (min-width: 901) {
+		.map {
+			width: 50%;
+			height: 100%;
+		}	
+	}
+/* End Media Query Styling */
+
+
+
+/* Adam's Page */
+	/* Calculator Styling */
+	#calculator {
+		background-color: lightgrey;
+		border-radius: 5px;
+		margin: 30px auto;
+		width: 20%;
+		padding: 10px;
+		border: 2px solid darkgrey;
+	}
+
+	#grid-container {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		background-color: lightgrey;
+		margin:0px auto;
+		width: 90%;
+		height: 400px;
+		
+	}
+	.btn-grid {
+		text-align: center;
+		align-content: center;
+		font-size: 1.2em;
+		max-width: 50px;
+		height:2.2em;
+		margin:auto;
+		width: 6em;
+	}
+
+	#screen {
+		background-color: #f2f2f2;
+		width: 90%;
+		margin: auto;
+		height: 3em;
+		text-align: right;
+		border-radius: 3px;
+		padding: 5px 5px;
+
+
+	}
+
+	#enter {
+		padding: 0px;
+		background-color: blue;
+		border: 2px solid lightgrey;
+		border-bottom: 2px solid grey;
+		color: white;
+		border-radius: 5px;
+		max-width: 150px;
+		width: 5em;
+		grid-column: 3 / 5;
+	}
