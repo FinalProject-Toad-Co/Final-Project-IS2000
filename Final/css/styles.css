@@ -87,6 +87,23 @@ main {
 			height: 100%;
 		}	
 	}
+
+	/* Desktop index Form */
+	.fieldsets {
+		border: 1px solid black;
+	}
+
+	/*End Desktop index Form */
+
+
+
+
+
+
+
+
+
+
 /* End Media Query Styling */
 
 
