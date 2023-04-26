@@ -4,9 +4,7 @@
 
 */
 
-main {
-	
-}
+
 
 .bg-black {
 	background-color: black;
@@ -44,11 +42,7 @@ main {
 		border: 1px solid #e3e5e8;
 		box-shadow: 2px 2px 4px brown;
 	}
-	.contact-highlight:hover {
-		transform: translateY(-10px);
-		box-shadow: 20px 20px 10px brown;
-	}
-
+	
 /* End Contact Page styling */
 
 /* Footer Styling */
@@ -74,54 +68,71 @@ main {
 	}
 /* End Footer Styling */
 
+/* Mobile Styling for Form */
+	textarea {
+		width: 70%;
+	}
+	#form-be-grey {
+		background-color: lightgrey;
+		border: 2px solid black;
+		border-radius: 5px;
+		width: 80%;
+		margin: 10px auto;
+	}
+	.fieldsets {
+		border: 1px solid black;
+		padding-left: 10px;
+	}
+	#make-the-box-center {
+		text-align: center;	
+	}
+	#text-area {
+		background-color: #ededed;
+	}
+	#submit-button {
+		margin: 10px;
+	}
+	.fieldsets2 label {
+		padding-top: 5px;
+		margin-top: 5px;
+	}
+	#input-section {
+		
+		padding: 15px;
+		margin: 10px auto;
+	}
+	.last-item-form {
+		margin-bottom: 10px;
+	}
+/* End Mobile Styling for Form */
+
+
 /* Media Query styling */
 	/* Tablet View port */
-
-
-	
-	@media screen and (min-width: 480) {
+	@media screen and (min-width: 480px) {
 
 	}
 
 	/* Desktop View Port */
-	@media screen and (min-width: 901) {
+	@media screen and (min-width: 901px) {
 		.map {
 			width: 50%;
 			height: 100%;
 		}	
-
-		/* Desktop index Form */
-		#form-be-grey {
-			background-color: lightgrey;
-			border: 2px solid black;
-			border-radius: 5px;
-			width: 80%;
-			margin: 10px auto;
+	/* Contact Page desktop styling */
+		.contact-highlight:hover {
+			transform: translateY(-10px);
+			box-shadow: 20px 20px 10px brown;
 		}
-		.fieldsets {
-			border: 1px solid black;
-			padding-left: 10px;
-		}
+	/* End Contact Page Desktop Styling */
+	
+	/* Desktop index Form */
 		#input-section {
 			display: grid;
 			grid-template-columns: auto auto auto;
-			padding: 15px;
-			margin: 10px auto;
+			
 		}
-		.fieldsets2 label {
-			padding-top: 5px;
-			margin-top: 5px;
-		}
-		#make-the-box-center {
-			text-align: center;	
-		}
-		#text-area {
-			background-color: #ededed;
-		}
-		#submit-button {
-			margin: 10px;
-		}
-		/*End Desktop index Form */
+	/*End Desktop index Form */
 	}
 
 	
