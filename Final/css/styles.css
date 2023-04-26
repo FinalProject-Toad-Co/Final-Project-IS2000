@@ -5,7 +5,9 @@
 */
 
 main {
-	background-color: black;
+	background-color: rgb(255, 255, 255);
+	padding-left: 55px;
+	padding-right: 55px;
 }
 
 .bg-black {
@@ -13,13 +15,14 @@ main {
 }
 
 .background-img {
-	background-image: linear-gradient(orange, black);
+	background-image: linear-gradient(rgb(255, 255, 255), black);
 }
 
 body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	padding-top: 65px;
 }
 
 /*
