@@ -15,21 +15,25 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Media Query -->
-		<meta name="" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicons -->
 		<link rel="stylesheet" type="text/css" href="">
 		<link rel="icon" href="images/favicon.ico">
 
 	</head>
 	<body>
-	<!-- Mobile Nav -->
-		<nav class="mobile-nav"></nav>
-		<header></header>
-	<!-- Desktop Nav -->
-	<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black">
 
+
+		<!-- Mobile Nav -->
+	<nav class="mobile-nav margin-bottom"></nav>
+	<header></header>
+
+
+<!-- Desktop Nav -->
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black margin-bottom">
 		<a class="navbar-brand" href="index.html">Toad & co.</a>
 		
+
 		<!-- Hamburger menu -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -64,7 +68,10 @@
 		  </div>
 	  </header>
 		<main>
-			
+    
+       
+		
+		<!-- Section For Grid layout -->
 
 		<!--Three images Grid -->
 
@@ -92,8 +99,80 @@
 
 		</div>
 
-		</main>
 
+
+		<!-- End Grid Layout Section-->
+
+
+		<!-- Forms Section -->
+			<form id="form-be-grey"> 
+				<div id="input-section">
+					<fieldset class="fieldsets fieldsets2">
+						<legend>Personal Information</legend>
+						<label for="fname">Fule Name:</label><br>
+						<input type="text" id="fname" name="fname" value="First, Last"><br>
+						<label for="lnum">Drivers' License Number:</label><br>
+						<input type="text" id="lnum" name="lnum" value="#0000000000"><br>
+
+						<label for="ticket_type"> Ticket Type: </label><br>
+						<select id="ticket_type" name="ticket_type" class="last-item-form"><br>
+							<option>Speeding Ticket</option>
+							<option>DUI</option>
+							<option>Parking Ticket</option>
+							<option>Other</option>
+						</select>
+					</fieldset>
+					
+					<fieldset class="fieldsets fieldsets2">
+						<legend>Officer Information</legend>
+
+						<label for="oname">Officer name: </label><br>
+						<input type="text" id="oname" name="oname" value="John Doe"><br>
+						<label for="bnum">Officer Badge Number: </label><br>
+						<input type="text" id="bnum" name="bnum" value="#0000000000" class="last-item-form"><br>
+					</fieldset>
+					
+					<fieldset class="fieldsets">
+						<legend>Reason for Ticket</legend>
+						
+						<label>Cited Violations: </label><br>
+
+						<input type="checkbox" id="speed1" name="speed1" value="">
+						<label for="">1-15 over</label><br>
+						
+						<input type="checkbox" id="speed2" name="speed2" value="">
+						<label for="">16-30 over</label><br>
+						
+						<input type="checkbox" id="speed3" name="speed3" value="">
+						<label for="">31+ over</label><br>
+						
+						<input type="checkbox" id="DUI" name="DUI" value="">
+						<label for="">Impaired driving</label><br>
+						
+						<input type="checkbox" id="mod" name="mod" value="">
+						<label for="">Illegal car modification</label><br>
+						
+						<input type="checkbox" id="IRS" name="IRS" value="">
+						<label for="">Insurance/Registration complication</label><br>
+						
+						<input type="checkbox" id="ddr" name="ddr" value="">
+						<label for="">Distracted Driving</label><br>
+						
+						<input type="checkbox" id="fix" name="fix" value="">
+						<label for="">Broken item on car</label><br>
+					</fieldset>
+				</div>
+				<div id="make-the-box-center">
+					<textarea name="other" rows="6" id="text-area">Provide any additional information you think we should know.</textarea>
+					<div id="submit-button"><input type="submit" ></div>
+				</div>	
+				
+			</form>
+		<!-- End Forms Section -->
+
+
+
+		</main>
 
 		<!-- Footer -->
 		<footer class="bg-dark text-center p-3 text-muted">
