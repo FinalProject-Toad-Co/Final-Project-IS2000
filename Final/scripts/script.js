@@ -18,10 +18,16 @@ function myFunction(){
 	document.getElementById("screen").innerHTML = "";
 }
 
-$('button').click(function(){
-  //var data='hello inside';
-  $(this).data('button').option1(data); // should alert 'hello outside'
-});
+
+
+//Index code
+function display2(){
+	alert("You submitted a request");
+}
+
+function display3(){
+	alert("You tried to use a broken Calculator. Really???");
+}
 
 
 //Slideshow Script!
