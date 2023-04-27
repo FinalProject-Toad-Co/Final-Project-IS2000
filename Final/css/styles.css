@@ -26,6 +26,29 @@ body {
   margin: 0;
 }
 
+/*Index Styling*/
+
+.introtothree {
+	text-align: center;
+	margin: 2% 0 2%;
+	background-color:lightblue ;
+	font-size: 2em;
+}
+.threeimg {
+	margin-top: 5%;
+}
+
+.threeimg figure figcaption {
+	text-align: center;
+	background-color: lightblue;
+	font-weight: bold;
+}
+
+.threeimg figure p {
+	text-align: center;
+	background-color: lightblue;
+}
+
 /*
 .nav-item:hover {
 	background-color: aliceblue;
@@ -210,22 +233,31 @@ footer {
 		}
 	/* Desktop View Port */
 	@media screen and (min-width: 901px) {
-		.map {
-				width: 50%;
-				height: 100%;
-			}	
-		/* Contact Page desktop styling */
-			.contact-highlight:hover {
-				transform: translateY(-10px);
-				box-shadow: 20px 20px 10px brown;
-			}/* End Contact Page Desktop Styling */
-		
-		/* Desktop index Form */
-			#input-section {
-				display: grid;
-				grid-template-columns: auto auto auto;
-				
-			}/*End Desktop index Form */
+  
+    .threeimg{ 
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    margin: auto; column-gap: 10%; 
+    } 
+    /*.map { 
+    width: 50%; height: 100%; 
+    }*/  
+    /* Contact Page desktop styling */ 
+    
+    .contact-highlight:hover { 
+    transform: translateY(-10px); box-shadow: 20px 20px 10px brown; 
+    
+    }
+    
+    /* End Contact Page Desktop Styling */ 
+    
+    /* Desktop index Form */ 
+    #input-section { 
+    display: grid; grid-template-columns: auto auto auto; 
+    
+    }
+    
+    /*End Desktop index Form */
 		/*Media Queries for DUI*/
 		.impmessage button {
 			font-size: 1.5em;
