@@ -39,9 +39,37 @@ footer {
 	margin-top: auto;
 }
 
+.index-grid {
+	display: grid;
+	padding: 10px;
+	grid-template-columns: auto auto;
+}
+
+.grid-item {
+	border: 1px solid #000;
+	padding: 10px;
+  	font-size: 20px;
+  	text-align: center;
+}
+
 /* Speeding Tickets Styling */
 	.speeding {
 		background-color: #f5f2e9;
+		font-family: 'Sigmar', cursive;
+	}
+
+	.speeding-body {
+		background-color: #f5f2e9;
+	}
+
+	.toad-speeding {
+		animation-duration: 4s;
+  		animation-delay: 2s;
+	}
+
+/* Crystal Portfolio Styling */
+	.crystal {
+		font-family: 'Sigmar', cursive;
 	}
 
 /* Contact Page Styling */
