@@ -25,6 +25,10 @@ function display2(){
 	alert("You submitted a request");
 }
 
+function display3(){
+	alert("You tried to use a broken Calculator. Really???");
+}
+
 
 //Slideshow Script!
 	let slideIndex = 1;

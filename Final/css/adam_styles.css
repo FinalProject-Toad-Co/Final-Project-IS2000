@@ -60,7 +60,7 @@
     }
     .image-item5 {
         grid-area: b1;
-        background-color: blue;
+        background-color: rgb(146, 146, 230);
     }
     .image-item6 {
         grid-area: a3;
