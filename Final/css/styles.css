@@ -54,6 +54,24 @@ body {
 	background-color: aliceblue;
 }
 
+/* Speeding Animation */
+	.animation-car {
+		width: 100px;
+		height: 100px;
+		background-color: red;
+		position: relative;
+		animation-name: car;
+		animation-duration: 4s;
+	}
+
+	@keyframes car {
+		0% { left:-100px; top:0px;}
+		100% {left: 500px; top:0px;}
+	}
+
+
+/* Speeding Animation */
+
 /* DUI Styling */
 
 
