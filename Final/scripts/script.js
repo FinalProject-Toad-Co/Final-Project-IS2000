@@ -18,15 +18,13 @@ function myFunction(){
 	document.getElementById("screen").innerHTML = "";
 }
 
-$('button').click(function(){
-  //var data='hello inside';
-  $(this).data('button').option1(data); // should alert 'hello outside'
-});
+
 
 //Index code
-function display(){
-	alert("You submitted a request")
-	document.getElementById("submit-button").style.display = "none";
+function display2(){
+	alert("You submitted a request");
+	let form = document.getElementById("input-section");
+	form.style.display = "none";
 }
 
 
