@@ -5,6 +5,123 @@
 */
 
 
+body {
+	margin: 0;
+}
+main {
+	background-color: rgb(255, 255, 255);
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.background-img {
+	background-image: linear-gradient(rgb(255, 255, 255), black);
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 65px;
+}
+
+/*
+.nav-item:hover {
+	background-color: aliceblue;
+}
+
+/* DUI Styling */
+
+
+/*Call to Action Styling*/
+.impmessage {
+	color: white;
+	padding: 10%;
+	margin: 0 0 5%;
+	background-image: url('/Final/images/dui1.jpeg');
+	text-align: center;
+	background-size: cover;
+}
+
+.impmessage h1,h2 {
+	font-size: 1.5em;
+}
+
+.impmessage button {
+	border-radius: 5px;
+	background-color: grey;
+}
+
+
+/* Beneftis Styling*/
+
+.benefits{
+	text-align: center;
+	color: black;
+}
+
+.benefits h2 {
+	font-size: 1.75em;
+}
+
+.benefits ul{
+	padding: 0;
+	list-style-position: inside;
+}
+
+
+/* Steps Styling */
+
+.steps {
+	text-align: center;
+	color: black;
+	margin: 5% 0 0;
+}
+
+.steps .odd {
+	color: white;
+}
+
+.step{
+	padding: 2%;
+}
+
+.step h2 {
+	font-size: 1.75em;
+}
+
+.step h3 {
+	font-size: 1.5em;
+	margin: 2%;
+	padding: 2%;
+}
+
+.step img {
+	border-radius: 75%;
+	max-width: 50%;
+}
+
+/* Phrase Styling*/
+
+.phrase {
+	color: white;
+	text-align: center;
+	padding: 2%;
+	margin: 5% 0 0;
+}
+
+.phrase h3 {
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: #EBECF0;
+	margin-top: auto;
+}
 /* Contact Page Styling */
 	.contact-page {
 		background-color: #f5f2e9;
@@ -64,17 +181,16 @@
 
 /* Media Query styling */
 	/* Tablet View port */
-	@media screen and (min-width: 480) {
+	@media screen and (min-width: 480px) {
 
 	}
 
 	/* Desktop View Port */
-	@media screen and (min-width: 901) {
-		.map {
+	@media screen and (min-width: 901px) {
+		/*.map {
 			width: 50%;
 			height: 100%;
-		}	
-
+		}*/	
 		/*Media Queries for DUI*/
 		.impmessage button {
 			font-size: 1.5em;
@@ -105,12 +221,16 @@
 			margin: 2%;
 		}
 
-		.grid {
+		.grid-this {
 			display: grid;
 			grid-template-columns: auto auto auto;
 			padding: 2%;
 		}
+
+		
 	}
+
+	
 
 /* End Media Query Styling */
 
