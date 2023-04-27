@@ -9,7 +9,7 @@ main {
 	background-color: rgb(255, 255, 255);
 	padding-left: 55px;
 	padding-right: 55px;
-	
+	font-family: 'Sigmar', cursive;
 }
 .bg-black {
 	background-color: black;
