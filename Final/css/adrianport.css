@@ -1,3 +1,5 @@
+/*Styles for Everything*/
+
 body {
 	margin: 0;
 }
@@ -19,6 +21,22 @@ body {
 	flex-direction: column;
 	padding-top: 65px;
 }
+
+#contact {
+    display: block;
+    text-align: center;
+    margin: 100px auto;		
+}
+.contact-highlight {
+    width: 50%;
+    border-radius: 4px;
+    border: 1px solid #e3e5e8;
+    box-shadow: 2px 2px 4px brown;
+}
+.contact-highlight:hover {
+    transform: translateY(-10px);
+    box-shadow: 20px 20px 10px brown;
+}
 /* Footer Styling */
 .fa {
     width: 40px;
@@ -39,4 +57,53 @@ body {
 .fa-youtube {
 background: #bb0000;
 color: white;
+}
+
+
+/* Portfolio Styles*/
+
+.front {
+    text-align: center;
+}
+
+.front .presentation {
+    margin: 10%;
+}
+
+.people figure {
+    max-height: 25%;
+}
+
+.people figcaption, .pets figcaption {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+/* Media Queries for Portfolio*/
+@media screen and (min-width: 901px) {
+    .front {
+        margin: 0 auto 10%;
+        width: 60%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .front .presentation {
+        margin: auto 10%;
+    }
+
+    .people{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 10%;
+        margin: 0 auto 5%;
+        width: 80%;
+    }
+
+    .pets {
+        margin: 0 auto 10%;
+        width: 20%;
+    }
 }
