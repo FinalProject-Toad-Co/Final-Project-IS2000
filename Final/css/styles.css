@@ -38,12 +38,12 @@ footer {
 	background-color: #EBECF0;
 	margin-top: auto;
 }
-
-.index-grid {
-	display: grid;
-	padding: 10px;
-	grid-template-columns: auto auto;
-}
+/* grid on index page */
+	.index-grid {
+		display: grid;
+		padding: 10px;
+		grid-template-columns: auto auto;
+	}
 
 .grid-item {
 	border: 1px solid #000;
