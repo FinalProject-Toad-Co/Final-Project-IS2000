@@ -23,6 +23,12 @@ $('button').click(function(){
   $(this).data('button').option1(data); // should alert 'hello outside'
 });
 
+//Index code
+function display(){
+	alert("You submitted a request")
+	document.getElementById("submit-button").style.display = "none";
+}
+
 
 //Slideshow Script!
 	let slideIndex = 1;
