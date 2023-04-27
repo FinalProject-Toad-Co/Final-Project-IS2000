@@ -23,8 +23,6 @@ function myFunction(){
 //Index code
 function display2(){
 	alert("You submitted a request");
-	let form = document.getElementById("input-section");
-	form.style.display = "none";
 }
 
 
